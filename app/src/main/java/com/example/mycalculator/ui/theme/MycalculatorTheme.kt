@@ -1,9 +1,8 @@
-package com.example.mycalculator.ui.theme
+package com.example.mycalculatord.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import com.example.mycalculator.MyJavaCalculator
 
 private val LightColors = lightColorScheme(
     primary = androidx.compose.ui.graphics.Color(0xFF12D1D1),
@@ -12,7 +11,7 @@ private val LightColors = lightColorScheme(
 )
 
 @Composable
-fun MyCalculatorTheme(content: @Composable () -> Unit) {
+fun MycalculatordTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colorScheme = LightColors,
         typography = MaterialTheme.typography,
