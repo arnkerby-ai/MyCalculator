@@ -1,4 +1,4 @@
-package com.example.mycalculatord
+package com.example.mycalculator
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -15,7 +15,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MycalculatordTheme {
+            MycalculatorTheme {
                 Greeting("Compose")
             }
         }
@@ -33,7 +33,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    MycalculatordTheme {
+    MycalculatorTheme {
         Greeting("Preview")
     }
 }
